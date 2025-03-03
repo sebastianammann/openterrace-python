@@ -6,8 +6,6 @@ a neumann-type BC is applied. 20 nodes are used to discretize the domain.
 The fluid is water, and the mass flow rate is 0.1 kg/s. The simulation
 time is 600 seconds, and the output is saved every 60 seconds.
 """
-import sys
-sys.path.append('.')
 import openterrace
 import matplotlib.pyplot as plt
 
