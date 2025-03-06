@@ -32,6 +32,7 @@ def main():
     fluid.select_output(times=[0, 30, 60, 90, 120, 150, 180, 210,
                         240, 270, 300, 600, 900,
                         1800, 3600, 5400, 6000])
+ 
 
     bed = ot.create_phase(n=20, n_other=100, type='bed')
     bed.select_substance('ATS58')
